@@ -9,6 +9,8 @@ import FirstSec from "./FirstSec";
 import SecSec from "./SecSec";
 import ThirdSec from "./ThirdSec";
 import FourthSec from "./FourthSec";
+import FifthSec from "./FifthSec";
+
 import "./HeroSec.css";
 
 function HeroPage() {
@@ -60,6 +62,7 @@ function HeroPage() {
       <SecSec />
       <ThirdSec />
       <FourthSec />
+      <FifthSec/>
     </>
   );
 }

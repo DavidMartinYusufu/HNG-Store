@@ -15,7 +15,11 @@ export default {
       'featurebtn' : '#000D07',
       'greyBox' : '#EEEEEE',
       'firstGreen' : '#1F704B',
-      'categorybtn' : '#545D59'
+      'categorybtn' : '#545D59',
+      'black' : '#000000',
+      'subscribe' : '#000D07',
+      'palewhite' : '#FBFBFB',
+      'line' : '#333D39'
      },
     backgroundImage: {
       'image': "url('./src/assets/image.png')",
