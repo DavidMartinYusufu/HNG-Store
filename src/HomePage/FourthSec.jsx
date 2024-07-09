@@ -18,7 +18,7 @@ function FourthSec() {
             <button className="">Subscribe</button>
           </div>
         </div>
-        <div className="bg-#38CB89">
+        <div className="bg-right">
           <img src={Union} alt="" />
         </div>
       </div>

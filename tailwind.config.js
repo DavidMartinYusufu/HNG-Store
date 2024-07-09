@@ -18,8 +18,8 @@ export default {
       'categorybtn' : '#545D59'
      },
     backgroundImage: {
-      'image': "url('./src/assets/bg-img.png')",
-    },
+      'image': "url('./src/assets/image.png')",
+    },  
   },
   plugins: [],
 }

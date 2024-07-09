@@ -1,4 +1,4 @@
-import "./index.css";
+// import "./index.css";
 import HeroPage from "./HomePage/HeroSec";
 
 function App() {
