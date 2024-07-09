@@ -8,7 +8,7 @@ import left from "../assets/icon.png";
 import FirstSec from "./FirstSec";
 import SecSec from "./SecSec";
 import ThirdSec from "./ThirdSec";
-import FourthSec from "./FourthSec.";
+// import FourthSec from "./FourthSec";
 
 function HeroPage() {
   return (
@@ -21,12 +21,12 @@ function HeroPage() {
         <img className="h-[16px] w-[16px]" src={close} alt="" />
       </div>
 
-      <div className="bg-image h-[160vh] bg-cover bg-image['image']">
+      <div className="bg-image h-[160vh] bg-cover bg-center">
         <div>
           <div className="flex justify-center items-center justify-between w-10/12 flex-wrap m-auto pt-[8px] pt-[8px]">
             <img src={glaz} alt="" />
 
-            <div className=" flex round-[100px] bg-grey p-[8px]  rounded-[100px] gap-[4px]">
+            <div className=" flex bg-grey p-[8px]  rounded-[100px] gap-[4px]">
               <input
                 className="max-w-[400px] h-[28px] pr-[8px] pl-[8px] rounded-[100px] bg-grey outline-0"
                 type="text"
@@ -58,7 +58,7 @@ function HeroPage() {
       <FirstSec />
       <SecSec />
       <ThirdSec/>
-      <FourthSec/>
+      {/* <FourthSec/> */}
     </>
   );
 }
