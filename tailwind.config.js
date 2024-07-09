@@ -1,0 +1,26 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+    colors: {
+      'myColor': '#C1EFDA',
+      'grey' : '#F3F3F3',
+      'white': '#ffffff',
+      'herobtn' : '#EBFAF3',
+      'right'  : '#38CB89',
+      'featurebtn' : '#000D07',
+      'greyBox' : '#EEEEEE',
+      'firstGreen' : '#1F704B',
+      'categorybtn' : '#545D59'
+     },
+    backgroundImage: {
+      'image': "url('./src/assets/bg-img.png')",
+    },
+  },
+  plugins: [],
+}
+
