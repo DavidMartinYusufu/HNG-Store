@@ -8,7 +8,7 @@ import left from "../assets/icon.png";
 import FirstSec from "./FirstSec";
 import SecSec from "./SecSec";
 import ThirdSec from "./ThirdSec";
-// import FourthSec from "./FourthSec";
+import FourthSec from "./FourthSec";
 
 function HeroPage() {
   return (
@@ -58,7 +58,7 @@ function HeroPage() {
       <FirstSec />
       <SecSec />
       <ThirdSec/>
-      {/* <FourthSec/> */}
+      <FourthSec/>
     </>
   );
 }
