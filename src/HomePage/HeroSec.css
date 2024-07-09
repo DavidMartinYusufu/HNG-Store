@@ -1,0 +1,7 @@
+#image {
+    background-image: url('../assets/image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    height: 147vh;
+  }
