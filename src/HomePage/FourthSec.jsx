@@ -1,6 +1,5 @@
 import React from "react";
 import Union from "../assets/Union.png";
-import Union from "../";
 
 
 function FourthSec() {
