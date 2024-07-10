@@ -19,7 +19,12 @@ export default {
       'black' : '#000000',
       'subscribe' : '#000D07',
       'palewhite' : '#FBFBFB',
-      'line' : '#333D39'
+      'line' : '#333D39',
+      'checkgreen' : '#45B26B',
+      'herobtn2' : '#D9D9D9',
+      'grey2' : '#8C8C8C',
+      'footergreen' : '#A3E7C9'
+      
      },
     backgroundImage: {
       'image': "url('./src/assets/image.png')",

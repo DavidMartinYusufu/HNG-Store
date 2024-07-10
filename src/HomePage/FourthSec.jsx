@@ -7,10 +7,10 @@ function FourthSec() {
       <div className="flex justify-center items-center justify-between pt-[40px] pr-[112px] pb-[40px] pl-[112px]">
         <div className="flex flex-col gap-[24px]">
           <div className="flex flex-col gap-[24px] max-w-[354px] tracking-[1px]">
-            <h1 className="text-[40px] font-medium leading-[50px]">
+            <h1 className="text-subscribe text-[40px] font-medium leading-[50px]">
               Stay updated with Visionary Vibes!
             </h1>
-            <h2>
+            <h2 className=" text-subscribe">
               Enter your email to get updates about new arrivals and exclusive
               offers.
             </h2>
