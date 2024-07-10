@@ -20,7 +20,7 @@ function FifthSec() {
           <div className="flex  flex-col gap-[8px]">
             <img className="h-[40px]" src={title} alt="Title" />
             <p className="text-[16px]">
-              New daily deals, <span>50%+ off</span>
+              New daily deals, <span className="text-footergreen">50%+ off</span>
             </p>
           </div>
           <div className="flex flex-col gap-[12px]">

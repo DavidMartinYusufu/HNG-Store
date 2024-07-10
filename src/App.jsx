@@ -1,10 +1,11 @@
-// import "./index.css";
+import Checkout from "./CheckoutPage/Checkout";
 import HeroPage from "./HomePage/HeroSec";
 
 function App() {
   return (
     <>
-      <HeroPage/>
+      <HeroPage />
+      {/* <Checkout /> */}
     </>
   );
 }

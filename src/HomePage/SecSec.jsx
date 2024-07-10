@@ -7,30 +7,30 @@ import phone from "../assets/phone.png";
 function SecSec() {
   return (
     <div>
-      <div className="w-11/12 m-auto border-[1px] border-grey">
-        <div className="text-[44px] text-firstGreen font-bold max-w-[600px]">
+      <div className="mt-[80px] mb-[80px] ml-[112px] mr-[112px]">
+        <div className="text-[54px] leading-[65px] text-firstGreen font-bold max-w-[600px]">
           <h2>We provide the best customer experiences</h2>
         </div>
-        <div className="flex gap-[32px] flex-wrap justify-between">
-          <div className="bg-greyBox flex flex-col justify-center items-start pt-[32px] pb-[32px] pl-[16px] rounded-[16px] w-[264px]">
+        <div className="flex gap-[32px] justify-between mt-[32px]">
+          <div className="bg-greyBox flex flex-col justify-center items-start pt-[32px] pb-[32px] pl-[16px] rounded-[16px] w-[280px]">
             <img src={van} alt="" />
-            <h2 className="font-bold">Free Shipping</h2>
-            <p>Order above $100</p>
+            <h2 className="font-bold pt-[16px] text-subscribe">Free Shipping</h2>
+            <p className="text-grey2">Order above $100</p>
           </div>
-          <div className="bg-greyBox flex flex-col justify-center items-start pt-[32px] pb-[32px] pl-[16px] rounded-[16px] w-[264px]">
+          <div className="bg-greyBox flex flex-col justify-center items-start pt-[32px] pb-[32px] pl-[16px] rounded-[16px] w-[280px]">
             <img src={money} alt="" />
-            <h2 className="font-bold">Money-back</h2>
-            <p>30 days guarantee</p>
+            <h2 className="font-bold pt-[16px] text-subscribe">Money-back</h2>
+            <p className="text-grey2">30 days guarantee</p>
           </div>
-          <div className="bg-greyBox flex flex-col justify-center items-start pt-[32px] pb-[32px] pl-[16px] rounded-[16px] w-[264px]">
+          <div className="bg-greyBox flex flex-col justify-center items-start pt-[32px] pb-[32px] pl-[16px] rounded-[16px] w-[280px]">
             <img src={lock} alt="" />
-            <h2 className="font-bold">Secure Payments</h2>
-            <p>Secured by paystack</p>
+            <h2 className="font-bold pt-[16px] text-subscribe">Secure Payments</h2>
+            <p className="text-grey2">Secured by paystack</p>
           </div>
-          <div className="bg-greyBox flex flex-col justify-center items-start pt-[32px] pb-[32px] pl-[16px] rounded-[16px] w-[264px]">
+          <div className="bg-greyBox flex flex-col justify-center items-start pt-[32px] pb-[32px] pl-[16px] rounded-[16px] w-[280px]">
             <img src={phone} alt="" />
-            <h2 className="font-bold">24/7 Support</h2>
-            <p>Phone and Email support</p>
+            <h2 className="font-bold pt-[16px] text-subscribe">24/7 Support</h2>
+            <p className="text-grey2">Phone and Email support</p>
           </div>
         </div>
       </div>
