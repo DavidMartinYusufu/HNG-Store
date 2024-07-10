@@ -23,7 +23,10 @@ export default {
       'checkgreen' : '#45B26B',
       'herobtn2' : '#D9D9D9',
       'grey2' : '#8C8C8C',
-      'footergreen' : '#A3E7C9'
+      'footergreen' : '#A3E7C9',
+      'headerInput' : '#5B5B5B',
+      'free' : '#33B97D',
+      'anotherGrey' : '#777777'
       
      },
     backgroundImage: {
