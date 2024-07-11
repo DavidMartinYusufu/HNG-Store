@@ -11,7 +11,7 @@ function FirstSec() {
       <div className=" mt-[80px] mb-[80px] ml-[10px] md:ml-[112px] md:mr-[112px] ">
         <div className="flex justify-center items-center justify-between flex-col md:flex-row">
           <h1 className="text-[28px] font-medium">Featured Products</h1>
-          <h2 className="text-[18px] font-medium">New Sales</h2>
+          <h2 className="text-[18px] font-medium p-[10px] md:bg-white bg-greyBox rounded-[8px]">New Sales</h2>
         </div>
 
         <div className="flex justify-center items-center flex-col gap-[20px] mt-[52px] md:flex-row ">

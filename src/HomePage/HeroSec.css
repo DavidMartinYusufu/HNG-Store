@@ -2,8 +2,8 @@
     background-image: url('../assets/image.png');
     background-position: center;
     background-repeat: no-repeat;
-    /* background-size: cover; */
-    height: 180vh;
+    background-size: cover; 
+    height: 160vh;  
     /* margin-top: -100px; */
     /* z-index: 1; */
   }
