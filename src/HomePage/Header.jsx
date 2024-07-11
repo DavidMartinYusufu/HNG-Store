@@ -45,14 +45,28 @@ function Header() {
           </button>
         </div>
 
-        <Link to="/checkout">
-          <div className="flex">
-            <button className="pr-[10px] inline md:hidden">
-              <img src={search} alt="" />
-            </button>
-            <img src={cart} alt="" />
+        <div>
+          <div className="inline md:hidden">
+            <Link to="/carts2">
+              <div className="flex">
+                <button className="pr-[10px] inline md:hidden">
+                  <img src={search} alt="" />
+                </button>
+                <img src={cart} alt="" />
+              </div>
+            </Link>
           </div>
-        </Link>
+          <div className="hidden md:inline">
+            <Link to="/checkout">
+              <div className="flex">
+                <button className="pr-[10px] inline md:hidden">
+                  <img src={search} alt="" />
+                </button>
+                <img src={cart} alt="" />
+              </div>
+            </Link>
+          </div>
+        </div>
       </div>
     </div>
   );
