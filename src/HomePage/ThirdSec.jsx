@@ -24,25 +24,24 @@ import rating from "../assets/Rating.png";
 import leftarrow from "../assets/Frame13.png";
 import rightarrow from "../assets/Frame14.png";
 
-
 function ThirdSec() {
   return (
     <div>
-      <div className="flex flex-col gap-[60px] mt-[80px] mb-[80px] ml-[112px] mr-[112px]">
-        <div className="flex flex-wrap justify-center items-center justify-between text-categorybtn">
+      <div className="flex flex-col  gap-[60px] mt-[80px] mb-[80px] md:ml-[112px] md:mr-[112px] ">
+        <div className="flex justify-center items-center justify-between flex-col text-categorybtn md:flex-row">
           <div className="text-[40px] text-featurebtn">
             <h1>50+ Products</h1>
           </div>
-          <div className="flex gap-[8px] justify-center items-center text-[14px]">
+          <div className="flex gap-[8px] justify-center items-center text-[14px] flex-col md:flex-row">
             <h2>Filter Products By:</h2>
             <button className="flex justify-center items-center rounded-[8px] border-[1px] border-categorybtn pt-[8px] pb-[8px] pr-[16px] pl-[16px]">
-              Category
+              All Category
               <img src={down} alt="" />
             </button>
           </div>
         </div>
-        <div className="flex flex-col gap-[60px]">
-          <div className="flex justify-between gap-[32px]">
+        <div className=" md:flex md:flex-col gap-[60px]">
+          <div className="grid grid-cols-2 gap-[12px] justify-center items-center pl-[16px] pr-[16px] md:flex md:justify-between md:gap-[32px]">
             <div className="flex flex-col items-start">
               <img className="" src={one} alt="image" />
               <img className="pt-[12px]" src={rating} alt="" />
@@ -69,7 +68,7 @@ function ThirdSec() {
             </div>
           </div>
 
-          <div className="flex justify-between gap-[32px]">
+          <div className=" grid grid-cols-2 gap-[12px] pl-[16px] pr-[16px] md:flex md:justify-between md:gap-[32px]">
             <div className="flex flex-col items-start">
               <img src={five} alt="image" />
               <img className="pt-[12px]" src={rating} alt="" />
@@ -96,7 +95,7 @@ function ThirdSec() {
             </div>
           </div>
 
-          <div className="flex justify-between gap-[32px]">
+          <div className="grid grid-cols-2 gap-[12px] pl-[16px] pr-[16px] md:flex md:justify-between md:gap-[32px]">
             <div className="flex flex-col items-start">
               <img src={nine} alt="image" />
               <img className="pt-[12px]" src={rating} alt="" />
@@ -123,7 +122,7 @@ function ThirdSec() {
             </div>
           </div>
 
-          <div className="flex justify-between gap-[32px]">
+          <div className="grid grid-cols-2 gap-[12px] pl-[16px] pr-[16px] md:flex md:justify-between md:gap-[32px]">
             <div className="flex flex-col items-start">
               <img src={thirteen} alt="image" />
               <img className="pt-[12px]" src={rating} alt="" />
@@ -150,7 +149,7 @@ function ThirdSec() {
             </div>
           </div>
 
-          <div className="flex justify-between gap-[32px]">
+          <div className="grid grid-cols-2 gap-[12px] pl-[16px] pr-[16px] md:flex md:justify-between md:gap-[32px]">
             <div className="flex flex-col items-start">
               <img src={sixteen} alt="image" />
               <img className="pt-[12px]" src={rating} alt="" />
@@ -178,9 +177,12 @@ function ThirdSec() {
           </div>
         </div>
         <div className="flex justify-center items-center justify-between">
-          <img src={leftarrow} alt="" />
-          <div>Page 1 of 3 1 ... 3</div>
-          <img src={rightarrow} alt="" />
+          <img className="pl-[16px]" src={leftarrow} alt="" />
+          <div className="flex gap-[24px]">
+            <div className="text-[14px] font-medium">Page 1 of 5</div>
+            <div><span className="border-[1px] rounded-[6px] pt-[3px] pb-[3px] pr-[6px] pl-[6px] border-firstGreen">1</span>{" "}... 5</div>
+          </div>
+          <img className="pr-[16px]" src={rightarrow} alt="" />
         </div>
       </div>
     </div>

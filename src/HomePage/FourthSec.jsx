@@ -3,11 +3,11 @@ import Union from "../assets/Union.png";
 
 function FourthSec() {
   return (
-    <div className="bg-right m-auto rounded-[16px] self-stretch mt-[80px] mr-[112px] mb-[80px] ml-[112px]">
-      <div className="flex justify-center items-center justify-between pt-[40px] pr-[112px] pb-[40px] pl-[112px]">
-        <div className="flex flex-col gap-[24px]">
+    <div className="bg-right m-auto md:rounded-[16px] self-stretch mt-[80px] md:mr-[112px] mb-[80px] md:ml-[112px]">
+      <div className="flex flex-col md:flex-row justify-center items-center justify-between pt-[40px] md:pr-[112px] pb-[40px] md:pl-[112px]">
+        <div className="flex flex-col pl-[24px] pr-[24px] md:pl-[0px] md:pr-[0px]  gap-[24px]">
           <div className="flex flex-col gap-[24px] max-w-[354px] tracking-[1px]">
-            <h1 className="text-subscribe text-[40px] font-medium leading-[50px]">
+            <h1 className="text-subscribe text-[34px] md:text-[40px] text-center md:text-start font-medium leading-[50px]">
               Stay updated with Visionary Vibes!
             </h1>
             <h2 className=" text-subscribe">
@@ -30,8 +30,8 @@ function FourthSec() {
             </div>
           </div>
         </div>
-        <div className="bg-right">
-          <img src={Union} alt="" />
+        <div className="bg-right pl-[24px] pr-[24px] pt-[52px] md:pt-[0px]">
+          <img className="w-full" src={Union} alt="" />
         </div>
       </div>
     </div>
