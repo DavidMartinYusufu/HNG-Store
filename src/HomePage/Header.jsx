@@ -19,17 +19,24 @@ function Header() {
         <img className="h-[16px] w-[16px] mb-[2px]" src={close} alt="" />
       </div>
 
-      <div className="flex justify-center items-center justify-between m-auto pt-[24px] pb-[24px] pl-[112px] pr-[112px]">
+      <div className="flex justify-center items-center justify-between m-auto pt-[24px] pb-[24px] pl-[16px] pr-[16px] md:pl-[112px] md:pr-[112px]">
         <Link to="/">
-          <img src={logo} alt="" />
+          <div className="w-[48px] h-[22px] flex justify-center items-center gap-[12px] rounded-[10px]">
+            <div className="flex flex-col gap-[4px] inline md:hidden pl-[20px]">
+              <div className="w-[22px] h-[2px] bg-black"></div>
+              <div className="w-[22px] h-[2px] bg-black"></div>
+              <div className="w-[22px] h-[2px] bg-black"></div>
+            </div>
+            <img src={logo} alt="" />
+          </div>
         </Link>
 
         <div
           id="searchInput"
-          className=" flex bg-grey gap-[4px] items-center p-[8px] rounded-[99px] outline-headerInput border-[1px] w-full  max-w-[500px]"
+          className="hidden md:flex bg-grey gap-[4px] items-center p-[8px] rounded-[99px] outline-headerInput border-[1px] w-full  max-w-[500px]"
         >
           <input
-            className=" text-[16px] h-[20px] bg-grey outline-0 w-full max-w-[500px] pl-[8px]"
+            className="  text-[16px] h-[20px] bg-grey outline-0 w-full max-w-[500px] pl-[8px]"
             type="text"
             placeholder="Hinted search text|"
           />
@@ -39,7 +46,12 @@ function Header() {
         </div>
 
         <Link to="/checkout">
-          <img src={cart} alt="" />
+          <div className="flex">
+            <button className="pr-[10px] inline md:hidden">
+              <img src={search} alt="" />
+            </button>
+            <img src={cart} alt="" />
+          </div>
         </Link>
       </div>
     </div>

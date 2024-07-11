@@ -15,7 +15,7 @@ function HeroPage() {
     <>
     <Header/>
       <div className="" id="image">
-        <div className="md:pl-[112px]  md:pt-[112px]">
+        <div className="md:pl-[112px]  md:pr-[112px]">
           <div className="md:w-8/12">
             <div className=" text-white text-[40px] pt-[66px] pl-[16px] font-medium md:leading-[130px] md:tracking-tighter lg:text-[100px]">
               <h1>See better, look better, and feel confident.</h1>
