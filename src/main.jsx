@@ -1,10 +1,20 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+
 import App from './App.jsx'
 import './index.css'
+import HeroSec from "./HomePage/HeroSec.jsx"
+import Checkout from './CheckoutPage/Checkout.jsx'
+import ErrorBoundary from './ErrorBoundary/ErrorBoundary.jsx'
+
+const router = createBrowserRouter([
+  {path: '/', element: <HeroSec/>, errorElement: <ErrorBoundary/>},
+  {path: '/checkout', element: <Checkout/> }
+])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router}/>
   </React.StrictMode>,
 )

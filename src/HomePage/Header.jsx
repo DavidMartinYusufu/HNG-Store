@@ -4,7 +4,7 @@ import ticket from "../assets/ticket-percent.png";
 import close from "../assets/close.png";
 import search from "../assets/search.png";
 import logo from "../assets/logo.png";
-
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -13,14 +13,21 @@ function Header() {
         <div>
           <img className="h-[16px] w-[16px] mb-[2px]" src={ticket} alt="" />
         </div>
-        <p className="m-0 p-0 text-[14px] pr-[22px] font-medium">50%+ off — Limited time!</p>
+        <p className="m-0 p-0 text-[14px] pr-[22px] font-medium">
+          50%+ off — Limited time!
+        </p>
         <img className="h-[16px] w-[16px] mb-[2px]" src={close} alt="" />
       </div>
 
       <div className="flex justify-center items-center justify-between m-auto pt-[24px] pb-[24px] pl-[112px] pr-[112px]">
-        <img src={logo} alt="" />
+        <Link to="/">
+          <img src={logo} alt="" />
+        </Link>
 
-        <div id="searchInput" className=" flex bg-grey gap-[4px] items-center p-[8px] rounded-[99px] outline-headerInput border-[1px] w-full  max-w-[500px]">
+        <div
+          id="searchInput"
+          className=" flex bg-grey gap-[4px] items-center p-[8px] rounded-[99px] outline-headerInput border-[1px] w-full  max-w-[500px]"
+        >
           <input
             className=" text-[16px] h-[20px] bg-grey outline-0 w-full max-w-[500px] pl-[8px]"
             type="text"
@@ -31,7 +38,9 @@ function Header() {
           </button>
         </div>
 
-        <img src={cart} alt="" />
+        <Link to="/checkout">
+          <img src={cart} alt="" />
+        </Link>
       </div>
     </div>
   );

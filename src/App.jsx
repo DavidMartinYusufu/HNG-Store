@@ -4,7 +4,7 @@ import HeroPage from "./HomePage/HeroSec";
 function App() {
   return (
     <>
-      <HeroPage />
+      {/* <HeroPage /> */}
       {/* <Checkout /> */}
     </>
   );
