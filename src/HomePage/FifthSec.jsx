@@ -15,12 +15,13 @@ import facebook from "../assets/Fb.png";
 function FifthSec() {
   return (
     <div className="bg-featurebtn">
-      <div className="flex text-palewhite justify-center items-center justify-between pt-[80px] pr-[112px] pb-[80px] pl-[112px]">
-        <div className="flex  flex-col gap-[40px]">
+      <div className="flex text-palewhite justify-center items-center justify-between pt-[80px] md:pr-[112px] pb-[80px] md:pl-[112px]">
+        <div className="flex flex-col pl-[32px] gap-[40px]">
           <div className="flex  flex-col gap-[8px]">
             <img className="h-[40px]" src={title} alt="Title" />
             <p className="text-[16px]">
-              New daily deals, <span className="text-footergreen">50%+ off</span>
+              New daily deals,{" "}
+              <span className="text-footergreen">50%+ off</span>
             </p>
           </div>
           <div className="flex flex-col gap-[12px]">
@@ -41,19 +42,19 @@ function FifthSec() {
             </div>
           </div>
         </div>
-        <div>
-          <img className="h-[240px] max-w-[750px]" src={footerimg} alt="" />
+        <div className="">
+          <img className="hidden md:inline h-[240px] max-w-[750px]" src={footerimg} alt="" />
         </div>
       </div>
 
-      <div className="pt-[80px] pr-[112px] pb-[40px] pl-[112px] flex flex-col gap-[31px]">
+      <div className="pt-[80px] md:pr-[112px] pb-[40px] md:pl-[112px] flex flex-col gap-[31px] pl-[16px] pr-[16px]">
         <div className="h-[1px] w-full bg-line"></div>
-        <div className="flex justify-center items-center justify-between">
-          <div>
+        <div className=" flex flex-col justify-start items-start justify-between md:flex-row ">
+          <div className="w-[48px] h-[22px] pt-[1px] pb-[32px]">
             <img src={glaz1} alt="" />
           </div>
           <div className="flex flex-col flex-end gap-[16px]">
-            <div  className="flex justify-end gap-[24px]">
+            <div className="flex md:justify-end gap-[24px]">
               <img src={facebook} alt="" />
               <img src={twitter} alt="" />
               <img src={instagram} alt="" />
