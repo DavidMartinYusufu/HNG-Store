@@ -33,10 +33,10 @@ function Header() {
 
         <div
           id="searchInput"
-          className="hidden md:flex bg-grey gap-[4px] items-center p-[8px] rounded-[99px] outline-headerInput border-[1px] w-full  max-w-[500px]"
+          className="hidden md:flex gap-[4px] items-center p-[8px] rounded-[99px] outline-headerInput border-[1px] w-full  max-w-[500px]"
         >
           <input
-            className="  text-[16px] h-[20px] bg-grey outline-0 w-full max-w-[500px] pl-[8px]"
+            className="  text-[16px] h-[20px] outline-0 w-full max-w-[500px] pl-[8px]"
             type="text"
             placeholder="Hinted search text|"
           />
