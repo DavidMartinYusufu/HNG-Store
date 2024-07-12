@@ -33,7 +33,7 @@ function Checkout() {
                   className="border-categorybtn border md:bg-greyBox pl-[16px] pr-[16px] pt-[10px] pb-[10px] rounded-[6px] w-full"
                 >
                   <input
-                    className="md:bg-greyBox text-[16px] w-full"
+                    className="md:bg-greyBox text-[16px] w-full focus:outline-none "
                     type="text"
                     placeholder="Enter first name"
                   />
@@ -43,7 +43,7 @@ function Checkout() {
                 <h2 className="text-[14px] font-medium mb-[12px]">Last Name</h2>
                 <div className="border-categorybtn border md:bg-greyBox pl-[16px] pr-[16px] pt-[10px] pb-[10px] rounded-[6px]  w-full">
                   <input
-                    className="md:bg-greyBox text-[16px]  w-full"
+                    className="md:bg-greyBox text-[16px]  w-full focus:outline-none "
                     type="text"
                     placeholder="Last name"
                   />
@@ -57,7 +57,7 @@ function Checkout() {
                 </h2>
                 <div className="border-categorybtn border md:bg-greyBox pl-[16px] pr-[16px] pt-[10px] pb-[10px] w-full rounded-[6px]">
                   <input
-                    className="md:bg-greyBox text-[16px] w-full"
+                    className="md:bg-greyBox text-[16px] w-full focus:outline-none "
                     type="text"
                     placeholder="Phone number"
                   />
@@ -69,7 +69,7 @@ function Checkout() {
                 </h2>
                 <div className="border-categorybtn border md:bg-greyBox pl-[16px] pr-[16px] pt-[10px] pb-[10px] w-full rounded-[6px]">
                   <input
-                    className="md:bg-greyBox text-[16px] w-full"
+                    className="md:bg-greyBox text-[16px] w-full focus:outline-none "
                     type="text"
                     placeholder="Your Email"
                   />
@@ -90,7 +90,7 @@ function Checkout() {
                   </h2>
                   <div className="border-categorybtn border md:bg-greyBox pl-[16px] pr-[16px] pt-[10px] pb-[10px] w-full rounded-[6px]">
                     <input
-                      className="md:bg-greyBox text-[16px] w-full"
+                      className="md:bg-greyBox text-[16px] w-full focus:outline-none "
                       type="text"
                       placeholder="Enter first name"
                     />
@@ -104,7 +104,7 @@ function Checkout() {
                   </h2>
                   <div className="border-categorybtn border md:bg-greyBox pl-[16px] pr-[16px] pt-[10px] pb-[10px] w-full rounded-[6px]">
                     <input
-                      className="md:bg-greyBox text-[16px] w-full"
+                      className="md:bg-greyBox text-[16px] w-full focus:outline-none "
                       type="text"
                       placeholder="Enter first name"
                     />
@@ -116,7 +116,7 @@ function Checkout() {
                   </h2>
                   <div className="border-categorybtn border md:bg-greyBox pl-[16px] pr-[16px] pt-[10px] pb-[10px] w-full  rounded-[6px]">
                     <input
-                      className="md:bg-greyBox text-[16px] w-full"
+                      className="md:bg-greyBox text-[16px] w-full focus:outline-none "
                       type="text"
                       placeholder="Last name"
                     />
@@ -128,7 +128,7 @@ function Checkout() {
                   <h2 className="text-[14px] font-medium mb-[12px]">State</h2>
                   <div className="border-categorybtn border md:bg-greyBox pl-[16px] pr-[16px] pt-[10px] pb-[10px] w-full rounded-[6px]">
                     <input
-                      className="md:bg-greyBox text-[16px] w-full"
+                      className="md:bg-greyBox text-[16px] w-full focus:outline-none "
                       type="text"
                       placeholder="Phone number"
                     />
@@ -140,7 +140,7 @@ function Checkout() {
                   </h2>
                   <div className="border-categorybtn border md:bg-greyBox pl-[16px] pr-[16px] pt-[10px] pb-[10px] w-full rounded-[6px]">
                     <input
-                      className="md:bg-greyBox text-[16px] w-full"
+                      className="md:bg-greyBox text-[16px] w-full focus:outline-none "
                       Place Order
                       type="text"
                       placeholder="Your Email"
