@@ -11,10 +11,10 @@ function FirstSec() {
       <div className=" mt-[80px] mb-[80px] ml-[10px] md:ml-[112px] md:mr-[112px] ">
         <div className="flex justify-center items-center justify-between flex-col md:flex-row">
           <h1 className="text-[28px] font-medium">Featured Products</h1>
-          <h2 className="text-[18px] font-medium p-[10px] md:bg-white bg-greyBox rounded-[8px]">New Sales</h2>
+          <h2 className="text-[18px] font-medium p-[10px] mt-[16px] md:bg-white bg-greyBox rounded-[8px]">New Sales</h2>
         </div>
 
-        <div className="flex justify-center items-center flex-col gap-[20px] mt-[52px] md:flex-row ">
+        <div className="flex justify-center items-center flex-col ml-[6px] mr-[16px] gap-[20px] mt-[52px] md:flex-row ">
           <div>
             <img className="w-[360px] h-[383px]" src={frame1} alt="" />
             <img className="pt-[16px]" src={rate} alt="" />

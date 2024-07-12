@@ -15,8 +15,8 @@ import facebook from "../assets/Fb.png";
 function FifthSec() {
   return (
     <div className="bg-featurebtn">
-      <div className="flex text-palewhite justify-center items-center justify-between pt-[80px] md:pr-[112px] pb-[80px] md:pl-[112px]">
-        <div className="flex flex-col pl-[32px] gap-[40px]">
+      <div className="flex flex-col md:flex-row text-palewhite justify-center items-center justify-between pt-[80px] md:pr-[112px] pb-[80px] md:pl-[112px]">
+        <div className="flex flex-col md:pl-[32px] gap-[40px]">
           <div className="flex  flex-col gap-[8px]">
             <img className="h-[40px]" src={title} alt="Title" />
             <p className="text-[16px]">
@@ -26,9 +26,9 @@ function FifthSec() {
           </div>
           <div className="flex flex-col gap-[12px]">
             <p className="text-[16px]">Offer expires in:</p>
-            <div className="flex text-center  text-[12px] gap-[16px]">
-              <div className="flex flex-col gap-[4px]">
-                <img src={cell} alt="time" /> <p>Days</p>
+            <div className="flex text-center text-[12px] gap-[16px]">
+              <div className="flex flex-col gap-[4px]"> 
+                <img className="" src={cell} alt="time" /> <p>Days</p>
               </div>
               <div className="flex flex-col gap-[4px]">
                 <img src={cell1} alt="time" /> <p>Hours</p>
@@ -42,8 +42,8 @@ function FifthSec() {
             </div>
           </div>
         </div>
-        <div className="">
-          <img className="hidden md:inline h-[240px] max-w-[750px]" src={footerimg} alt="" />
+        <div className="w-full max-w-[750px]">
+          <img className="w-full hidden lg:inline h-[240px]" src={footerimg} alt="" />
         </div>
       </div>
 

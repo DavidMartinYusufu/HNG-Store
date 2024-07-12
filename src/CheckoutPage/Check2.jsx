@@ -19,11 +19,10 @@ function Carts2() {
   return (
     <div>
       <Header />
-
-      <div className="max-w-[450px] m-auto flex justify-center items-center mt-[80px] mr-[16px] ml-[16px]">
+      <div className="max-w-[450px] m-auto flex justify-center items-center mt-[0px] mb-[60px]">
         <div
           id="expand"
-          className="bg-palewhite pt-[32px] pb-[32px] pr-[16px] pl-[16px] flex flex-col max-w-[400px] justify-end rounded-[16px]"
+          className="md:bg-palewhite pt-[32px] pb-[32px] pr-[16px] pl-[16px] flex flex-col max-w-[400px] justify-end rounded-[16px]"
         >
           <div className="flex justify-center items-center justify-between mb-[5px]">
             <h1 className="font-medium">Cart</h1>

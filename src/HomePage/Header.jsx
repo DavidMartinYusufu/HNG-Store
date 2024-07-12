@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <div className="bg-grey">
+    <div className="md:shadow-[0_35px_2px_-35px_rgba(0,0,0,0.3)]">
       <div className="bg-myColor flex justify-center items-center pt-[8px] pb-[8px] gap-[10px]">
         <div>
           <img className="h-[16px] w-[16px] mb-[2px]" src={ticket} alt="" />
